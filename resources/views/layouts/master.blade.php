@@ -12,7 +12,8 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+    <!-- Custom App styles -->
+    <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
   </head>
