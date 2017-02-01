@@ -17,7 +17,7 @@ header{
 	margin-bottom: 2em;
 }
 .logo-container{
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 .nav-header{
     position: absolute;
@@ -26,8 +26,8 @@ header{
 	transform: translatex(-50%);
 }
 .def-top{
-	width: 90px;
-	height: 90px;
+	width: 120px;
+	height: 120px;
 }
 .logo-link{
 	color: #4A359A;
@@ -50,7 +50,7 @@ header{
     position: relative;
 }
 .label {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Miriam Libre",sans-serif;
     letter-spacing: 0.2em;
     line-height: 1em;
@@ -137,4 +137,7 @@ a:hover{
 }
 .e-card{
 	margin: 20px;
+}
+.nav-link{
+	font-size: 1.2em;
 }
