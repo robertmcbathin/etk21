@@ -9,10 +9,14 @@
     <meta name="keywords" content="@yield('keywords')">
     <meta name="description" content="@yield('description')">
     <title>@yield('title')</title>
-
+    <link rel="shortcut icon" type="image/x-icon" href="/pictures/icons/favicon.png" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom App styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+      @import url('https://fonts.googleapis.com/css?family=Cuprum');
+    </style>
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -22,6 +26,8 @@
     <div class="container-fluid">
         @include('includes.header')
         @yield('content')
+    </div>
+    <div class="container-fluid">
         @include('includes.footer')
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

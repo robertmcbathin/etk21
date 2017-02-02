@@ -245,7 +245,7 @@
       </div>
 	</div>
   <div class="container">
-<div class="label label--divider"><span>Единая Транспортная Карта</span></div>
+<div class="label label--divider"><span class="company-name">Единая Транспортная Карта</span></div>
 </div>
 <ul class="nav justify-content-center">
   <li class="nav-item">
