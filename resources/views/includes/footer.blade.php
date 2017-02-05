@@ -11,7 +11,7 @@
 						<a class="nav-link" href="#">Где приобрести карту?</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Как пополнить карту?</a>
+						<a class="nav-link" href="{{route('deposit-points')}}">Где пополнить карту?</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Аккредитованные банки</a>

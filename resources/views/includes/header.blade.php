@@ -2,7 +2,7 @@
 	<div class="container logo-container">
   <div class="nav-header">
 	  <div class="def-top">
-	    <a href="" class="logo-link">
+	    <a href="/" class="logo-link">
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:ooo="http://xml.openoffice.org/svg/export"
@@ -249,7 +249,7 @@
 </div>
 <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="#">О компании</a>
+    <a class="nav-link active" href="{{ route('about') }}">О компании</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Где купить карту?</a>

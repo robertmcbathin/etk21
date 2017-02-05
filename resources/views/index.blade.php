@@ -130,7 +130,7 @@
         <a class="category__link link--black" href="/category/laravel-5.4"></a>
       </div>
     </div>
-    <div class="row">
+    <div class="row partners-block">
     <div class="col-sm-6 col-md-3 col-lg-3 col-md-offset-2">
         <img src="/pictures/partners/sberbank2010.png" alt="Сбербанк России" class="mx-auto partner-logo">
       </div>
@@ -141,8 +141,7 @@
         <img src="/pictures/partners/steelbank.png" alt="Стальбанк" class="mx-auto partner-logo">
       </div>
     </div>
-    <br>
-    <div class="row">
+    <div class="row partners-block">
       <div class="col-sm-6 col-md-3 col-lg-3">
         <img src="/pictures/partners/citycard.png" alt="CityCard" class="mx-auto partner-logo">
       </div>
