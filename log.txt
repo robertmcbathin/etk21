@@ -1,0 +1,832 @@
+--2017-02-06 08:43:46--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/dashboard.html
+Resolving demos.creative-tim.com (demos.creative-tim.com)... 54.227.241.50
+Connecting to demos.creative-tim.com (demos.creative-tim.com)|54.227.241.50|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 41546 (41K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/dashboard.html’
+
+     0K .......... .......... .......... ..........           100% 69,4K=0,6s
+
+2017-02-06 08:43:47 (69,4 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/dashboard.html’ saved [41546/41546]
+
+Loading robots.txt; please ignore errors.
+--2017-02-06 08:43:47--  http://demos.creative-tim.com/robots.txt
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4640 (4,5K) [text/html]
+Saving to: ‘demos.creative-tim.com/robots.txt’
+
+     0K ....                                                  100%  362M=0s
+
+2017-02-06 08:43:47 (362 MB/s) - ‘demos.creative-tim.com/robots.txt’ saved [4640/4640]
+
+--2017-02-06 08:43:47--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/favicon.ico
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1150 (1,1K) [image/vnd.microsoft.icon]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/favicon.ico’
+
+     0K .                                                     100%  122M=0s
+
+2017-02-06 08:43:48 (122 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/favicon.ico’ saved [1150/1150]
+
+--2017-02-06 08:43:48--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/bootstrap.min.css
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 122540 (120K) [text/css]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/bootstrap.min.css’
+
+     0K .......... .......... .......... .......... .......... 41%  110K 1s
+    50K .......... .......... .......... .......... .......... 83%  126K 0s
+   100K .......... .........                                  100% 52,0K=1,2s
+
+2017-02-06 08:43:49 (97,2 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/bootstrap.min.css’ saved [122540/122540]
+
+--2017-02-06 08:43:50--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/light-bootstrap-dashboard.css
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 224288 (219K) [text/css]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/light-bootstrap-dashboard.css’
+
+     0K .......... .......... .......... .......... .......... 22%  295K 1s
+    50K .......... .......... .......... .......... .......... 45%  134K 1s
+   100K .......... .......... .......... .......... .......... 68%  122K 0s
+   150K .......... .......... .......... .......... .......... 91%  293K 0s
+   200K .......... .........                                  100% 2,16M=1,1s
+
+2017-02-06 08:43:51 (194 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/light-bootstrap-dashboard.css’ saved [224288/224288]
+
+--2017-02-06 08:43:51--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/demo.css
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9770 (9,5K) [text/css]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/demo.css’
+
+     0K .........                                             100%  140M=0s
+
+2017-02-06 08:43:51 (140 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/demo.css’ saved [9770/9770]
+
+--2017-02-06 08:43:51--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/pe-icon-7-stroke.css
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9742 (9,5K) [text/css]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/pe-icon-7-stroke.css’
+
+     0K .........                                             100% 5,02M=0,002s
+
+2017-02-06 08:43:51 (5,02 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/pe-icon-7-stroke.css’ saved [9742/9742]
+
+--2017-02-06 08:43:51--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/default-avatar.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 58867 (57K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/default-avatar.png’
+
+     0K .......... .......... .......... .......... .......... 86% 2,31M 0s
+    50K .......                                               100% 18,5K=0,4s
+
+2017-02-06 08:43:52 (135 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/default-avatar.png’ saved [58867/58867]
+
+--2017-02-06 08:43:52--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/buttons.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 46170 (45K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/buttons.html’
+
+     0K .......... .......... .......... .......... .....     100% 1,73M=0,03s
+
+2017-02-06 08:43:52 (1,73 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/buttons.html’ saved [46170/46170]
+
+--2017-02-06 08:43:52--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/grid.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35888 (35K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/grid.html’
+
+     0K .......... .......... .......... .....                100% 3,29M=0,01s
+
+2017-02-06 08:43:52 (3,29 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/grid.html’ saved [35888/35888]
+
+--2017-02-06 08:43:52--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/icons.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 218772 (214K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/icons.html’
+
+     0K .......... .......... .......... .......... .......... 23% 3,17M 0s
+    50K .......... .......... .......... .......... .......... 46%  261K 0s
+   100K .......... .......... .......... .......... .......... 70%  118K 0s
+   150K .......... .......... .......... .......... .......... 93%  128K 0s
+   200K .......... ...                                        100% 18,2M=1,0s
+
+2017-02-06 08:43:54 (209 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/icons.html’ saved [218772/218772]
+
+--2017-02-06 08:43:54--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/notifications.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 31039 (30K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/notifications.html’
+
+     0K .......... .......... ..........                      100% 5,96M=0,005s
+
+2017-02-06 08:43:54 (5,96 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/notifications.html’ saved [31039/31039]
+
+--2017-02-06 08:43:54--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/panels.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 46287 (45K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/panels.html’
+
+     0K .......... .......... .......... .......... .....     100% 7,92M=0,006s
+
+2017-02-06 08:43:55 (7,92 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/panels.html’ saved [46287/46287]
+
+--2017-02-06 08:43:55--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/sweet-alert.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 28420 (28K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/sweet-alert.html’
+
+     0K .......... .......... .......                         100% 3,58M=0,008s
+
+2017-02-06 08:43:55 (3,58 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/sweet-alert.html’ saved [28420/28420]
+
+--2017-02-06 08:43:55--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/typography.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 33499 (33K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/typography.html’
+
+     0K .......... .......... .......... ..                   100% 14,2M=0,002s
+
+2017-02-06 08:43:55 (14,2 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/typography.html’ saved [33499/33499]
+
+--2017-02-06 08:43:55--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/regular.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 41092 (40K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/regular.html’
+
+     0K .......... .......... .......... ..........           100% 7,18M=0,005s
+
+2017-02-06 08:43:56 (7,18 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/regular.html’ saved [41092/41092]
+
+--2017-02-06 08:43:56--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/extended.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35670 (35K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/extended.html’
+
+     0K .......... .......... .......... ....                 100% 2,53M=0,01s
+
+2017-02-06 08:43:56 (2,53 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/extended.html’ saved [35670/35670]
+
+--2017-02-06 08:43:56--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/validation.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 38275 (37K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/validation.html’
+
+     0K .......... .......... .......... .......              100% 11,2M=0,003s
+
+2017-02-06 08:43:56 (11,2 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/validation.html’ saved [38275/38275]
+
+--2017-02-06 08:43:56--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/wizard.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 39084 (38K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/wizard.html’
+
+     0K .......... .......... .......... ........             100% 4,07M=0,009s
+
+2017-02-06 08:43:57 (4,07 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/wizard.html’ saved [39084/39084]
+
+--2017-02-06 08:43:57--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/regular.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 37610 (37K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/regular.html’
+
+     0K .......... .......... .......... ......               100% 3,77M=0,01s
+
+2017-02-06 08:43:57 (3,77 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/regular.html’ saved [37610/37610]
+
+--2017-02-06 08:43:57--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/extended.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 51546 (50K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/extended.html’
+
+     0K .......... .......... .......... .......... .......... 99% 3,04M 0s
+    50K                                                       100%  644G=0,02s
+
+2017-02-06 08:43:57 (3,06 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/extended.html’ saved [51546/51546]
+
+--2017-02-06 08:43:57--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/bootstrap-table.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 36780 (36K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/bootstrap-table.html’
+
+     0K .......... .......... .......... .....                100% 2,40M=0,01s
+
+2017-02-06 08:43:58 (2,40 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/bootstrap-table.html’ saved [36780/36780]
+
+--2017-02-06 08:43:58--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/datatables.net.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 54590 (53K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/datatables.net.html’
+
+     0K .......... .......... .......... .......... .......... 93% 4,61M 0s
+    50K ...                                                   100% 32,6M=0,01s
+
+2017-02-06 08:43:58 (4,87 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/datatables.net.html’ saved [54590/54590]
+
+--2017-02-06 08:43:58--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/google.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 25307 (25K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/google.html’
+
+     0K .......... .......... ....                            100% 3,99M=0,006s
+
+2017-02-06 08:43:58 (3,99 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/google.html’ saved [25307/25307]
+
+--2017-02-06 08:43:58--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/vector.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 24581 (24K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/vector.html’
+
+     0K .......... .......... ....                            100% 2,99M=0,008s
+
+2017-02-06 08:43:59 (2,99 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/vector.html’ saved [24581/24581]
+
+--2017-02-06 08:43:59--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/fullscreen.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 22706 (22K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/fullscreen.html’
+
+     0K .......... .......... ..                              100% 3,64M=0,006s
+
+2017-02-06 08:43:59 (3,64 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/fullscreen.html’ saved [22706/22706]
+
+--2017-02-06 08:43:59--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/charts.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 27700 (27K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/charts.html’
+
+     0K .......... .......... .......                         100% 5,36M=0,005s
+
+2017-02-06 08:43:59 (5,36 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/charts.html’ saved [27700/27700]
+
+--2017-02-06 08:43:59--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/calendar.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 24086 (24K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/calendar.html’
+
+     0K .......... .......... ...                             100% 4,18M=0,005s
+
+2017-02-06 08:44:00 (4,18 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/calendar.html’ saved [24086/24086]
+
+--2017-02-06 08:44:00--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/login.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 14485 (14K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/login.html’
+
+     0K .......... ....                                       100% 4,12M=0,003s
+
+2017-02-06 08:44:00 (4,12 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/login.html’ saved [14485/14485]
+
+--2017-02-06 08:44:00--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/register.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 15707 (15K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/register.html’
+
+     0K .......... .....                                      100% 10,4M=0,001s
+
+2017-02-06 08:44:00 (10,4 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/register.html’ saved [15707/15707]
+
+--2017-02-06 08:44:00--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/lock.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12709 (12K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/lock.html’
+
+     0K .......... ..                                         100% 2,76M=0,004s
+
+2017-02-06 08:44:01 (2,76 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/lock.html’ saved [12709/12709]
+
+--2017-02-06 08:44:01--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/user.html
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 31068 (30K) [text/html]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/user.html’
+
+     0K .......... .......... ..........                      100% 2,64M=0,01s
+
+2017-02-06 08:44:01 (2,64 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/user.html’ saved [31068/31068]
+
+--2017-02-06 08:44:01--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/US.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3310 (3,2K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/US.png’
+
+     0K ...                                                   100%  168M=0s
+
+2017-02-06 08:44:01 (168 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/US.png’ saved [3310/3310]
+
+--2017-02-06 08:44:01--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/DE.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3109 (3,0K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/DE.png’
+
+     0K ...                                                   100%  193M=0s
+
+2017-02-06 08:44:02 (193 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/DE.png’ saved [3109/3109]
+
+--2017-02-06 08:44:02--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/AU.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3488 (3,4K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/AU.png’
+
+     0K ...                                                   100%  262M=0s
+
+2017-02-06 08:44:02 (262 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/AU.png’ saved [3488/3488]
+
+--2017-02-06 08:44:02--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/GB.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3543 (3,5K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/GB.png’
+
+     0K ...                                                   100%  397M=0s
+
+2017-02-06 08:44:02 (397 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/GB.png’ saved [3543/3543]
+
+--2017-02-06 08:44:02--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/RO.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3298 (3,2K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/RO.png’
+
+     0K ...                                                   100%  240M=0s
+
+2017-02-06 08:44:03 (240 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/RO.png’ saved [3298/3298]
+
+--2017-02-06 08:44:03--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/BR.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3594 (3,5K) [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/BR.png’
+
+     0K ...                                                   100%  283M=0s
+
+2017-02-06 08:44:03 (283 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/flags/BR.png’ saved [3594/3594]
+
+--2017-02-06 08:44:03--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-1.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 118851 (116K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-1.jpg’
+
+     0K .......... .......... .......... .......... .......... 43% 1,26M 0s
+    50K .......... .......... .......... .......... .......... 86%  138K 0s
+   100K .......... ......                                     100% 2,36M=0,4s
+
+2017-02-06 08:44:04 (285 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-1.jpg’ saved [118851/118851]
+
+--2017-02-06 08:44:04--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-2.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 267798 (262K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-2.jpg’
+
+     0K .......... .......... .......... .......... .......... 19% 2,84M 0s
+    50K .......... .......... .......... .......... .......... 38%  298K 0s
+   100K .......... .......... .......... .......... .......... 57% 1,27M 0s
+   150K .......... .......... .......... .......... .......... 76%  353K 0s
+   200K .......... .......... .......... .......... .......... 95% 1006K 0s
+   250K .......... .                                          100%  118K=0,5s
+
+2017-02-06 08:44:05 (510 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-2.jpg’ saved [267798/267798]
+
+--2017-02-06 08:44:05--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-3.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 217522 (212K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-3.jpg’
+
+     0K .......... .......... .......... .......... .......... 23%  327K 0s
+    50K .......... .......... .......... .......... .......... 47%  539K 0s
+   100K .......... .......... .......... .......... .......... 70%  336K 0s
+   150K .......... .......... .......... .......... .......... 94%  169K 0s
+   200K .......... ..                                         100%  151M=0,7s
+
+2017-02-06 08:44:06 (307 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-3.jpg’ saved [217522/217522]
+
+--2017-02-06 08:44:06--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-4.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 144830 (141K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-4.jpg’
+
+     0K .......... .......... .......... .......... .......... 35% 2,08M 0s
+    50K .......... .......... .......... .......... .......... 70%  124K 0s
+   100K .......... .......... .......... .......... .         100% 1,59M=0,5s
+
+2017-02-06 08:44:06 (313 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/full-screen-image-4.jpg’ saved [144830/144830]
+
+--2017-02-06 08:44:06--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 95957 (94K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.min.js’
+
+     0K .......... .......... .......... .......... .......... 53% 3,68M 0s
+    50K .......... .......... .......... .......... ...       100%  184K=0,3s
+
+2017-02-06 08:44:07 (373 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.min.js’ saved [95957/95957]
+
+--2017-02-06 08:44:07--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery-ui.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 75711 (74K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery-ui.min.js’
+
+     0K .......... .......... .......... .......... .......... 67% 1,68M 0s
+    50K .......... .......... ...                             100% 7,72M=0,03s
+
+2017-02-06 08:44:07 (2,25 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery-ui.min.js’ saved [75711/75711]
+
+--2017-02-06 08:44:07--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 36816 (36K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap.min.js’
+
+     0K .......... .......... .......... .....                100% 1,72M=0,02s
+
+2017-02-06 08:44:08 (1,72 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap.min.js’ saved [36816/36816]
+
+--2017-02-06 08:44:08--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.validate.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 21090 (21K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.validate.min.js’
+
+     0K .......... ..........                                 100% 1,33M=0,02s
+
+2017-02-06 08:44:08 (1,33 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.validate.min.js’ saved [21090/21090]
+
+--2017-02-06 08:44:08--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/moment.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35415 (35K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/moment.min.js’
+
+     0K .......... .......... .......... ....                 100% 2,92M=0,01s
+
+2017-02-06 08:44:09 (2,92 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/moment.min.js’ saved [35415/35415]
+
+--2017-02-06 08:44:09--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-datetimepicker.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 105475 (103K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-datetimepicker.js’
+
+     0K .......... .......... .......... .......... .......... 48% 1,00M 0s
+    50K .......... .......... .......... .......... .......... 97%  288K 0s
+   100K ...                                                   100% 5728G=0,2s
+
+2017-02-06 08:44:09 (464 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-datetimepicker.js’ saved [105475/105475]
+
+--2017-02-06 08:44:09--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-selectpicker.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 62180 (61K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-selectpicker.js’
+
+     0K .......... .......... .......... .......... .......... 82% 2,10M 0s
+    50K ..........                                            100% 93,0M=0,02s
+
+2017-02-06 08:44:10 (2,54 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-selectpicker.js’ saved [62180/62180]
+
+--2017-02-06 08:44:10--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-checkbox-radio-switch-tags.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 26765 (26K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-checkbox-radio-switch-tags.js’
+
+     0K .......... .......... ......                          100% 5,26M=0,005s
+
+2017-02-06 08:44:10 (5,26 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-checkbox-radio-switch-tags.js’ saved [26765/26765]
+
+--2017-02-06 08:44:10--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/chartist.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35986 (35K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/chartist.min.js’
+
+     0K .......... .......... .......... .....                100% 1,85M=0,02s
+
+2017-02-06 08:44:10 (1,85 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/chartist.min.js’ saved [35986/35986]
+
+--2017-02-06 08:44:10--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-notify.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13213 (13K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-notify.js’
+
+     0K .......... ..                                         100% 2,99M=0,004s
+
+2017-02-06 08:44:11 (2,99 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-notify.js’ saved [13213/13213]
+
+--2017-02-06 08:44:11--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/sweetalert2.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 28604 (28K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/sweetalert2.js’
+
+     0K .......... .......... .......                         100% 7,71M=0,004s
+
+2017-02-06 08:44:11 (7,71 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/sweetalert2.js’ saved [28604/28604]
+
+--2017-02-06 08:44:11--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery-jvectormap.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 250622 (245K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery-jvectormap.js’
+
+     0K .......... .......... .......... .......... .......... 20% 1,03M 0s
+    50K .......... .......... .......... .......... .......... 40%  301K 0s
+   100K .......... .......... .......... .......... .......... 61% 2,27M 0s
+   150K .......... .......... .......... .......... .......... 81%  308K 0s
+   200K .......... .......... .......... .......... ....      100% 2,76M=0,4s
+
+2017-02-06 08:44:12 (593 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery-jvectormap.js’ saved [250622/250622]
+
+--2017-02-06 08:44:12--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.bootstrap.wizard.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5988 (5,8K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.bootstrap.wizard.min.js’
+
+     0K .....                                                 100%  448M=0s
+
+2017-02-06 08:44:12 (448 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.bootstrap.wizard.min.js’ saved [5988/5988]
+
+--2017-02-06 08:44:12--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-table.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 88441 (86K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-table.js’
+
+     0K .......... .......... .......... .......... .......... 57% 1,49M 0s
+    50K .......... .......... .......... ......               100% 2,40M=0,05s
+
+2017-02-06 08:44:13 (1,77 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/bootstrap-table.js’ saved [88441/88441]
+
+--2017-02-06 08:44:13--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.datatables.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 460728 (450K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.datatables.js’
+
+     0K .......... .......... .......... .......... .......... 11% 1,73M 0s
+    50K .......... .......... .......... .......... .......... 22%  348K 1s
+   100K .......... .......... .......... .......... .......... 33% 1,01M 0s
+   150K .......... .......... .......... .......... .......... 44% 1,58M 0s
+   200K .......... .......... .......... .......... .......... 55%  363K 0s
+   250K .......... .......... .......... .......... .......... 66% 1,66M 0s
+   300K .......... .......... .......... .......... .......... 77%  505K 0s
+   350K .......... .......... .......... .......... .......... 88%  991K 0s
+   400K .......... .......... .......... .......... ......... 100% 1,20M=0,6s
+
+2017-02-06 08:44:14 (740 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.datatables.js’ saved [460728/460728]
+
+--2017-02-06 08:44:14--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/fullcalendar.min.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 98474 (96K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/fullcalendar.min.js’
+
+     0K .......... .......... .......... .......... .......... 51% 2,40M 0s
+    50K .......... .......... .......... .......... ......    100% 2,34M=0,04s
+
+2017-02-06 08:44:14 (2,37 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/fullcalendar.min.js’ saved [98474/98474]
+
+--2017-02-06 08:44:14--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/light-bootstrap-dashboard.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 14480 (14K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/light-bootstrap-dashboard.js’
+
+     0K .......... ....                                       100% 12,7M=0,001s
+
+2017-02-06 08:44:15 (12,7 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/light-bootstrap-dashboard.js’ saved [14480/14480]
+
+--2017-02-06 08:44:15--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.sharrre.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 25473 (25K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.sharrre.js’
+
+     0K .......... .......... ....                            100% 4,99M=0,005s
+
+2017-02-06 08:44:15 (4,99 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/jquery.sharrre.js’ saved [25473/25473]
+
+--2017-02-06 08:44:15--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/demo.js
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 29153 (28K) [application/javascript]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/demo.js’
+
+     0K .......... .......... ........                        100% 3,00M=0,009s
+
+2017-02-06 08:44:15 (3,00 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/js/demo.js’ saved [29153/29153]
+
+--2017-02-06 08:44:15--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/glyphicons-halflings-regular.eot
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-06 08:44:16 ERROR 404: Not Found.
+
+--2017-02-06 08:44:16--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/glyphicons-halflings-regular.eot?
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-06 08:44:16 ERROR 404: Not Found.
+
+--2017-02-06 08:44:16--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/glyphicons-halflings-regular.woff2
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-06 08:44:17 ERROR 404: Not Found.
+
+--2017-02-06 08:44:17--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/glyphicons-halflings-regular.woff
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-06 08:44:17 ERROR 404: Not Found.
+
+--2017-02-06 08:44:17--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/glyphicons-halflings-regular.ttf
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-06 08:44:17 ERROR 404: Not Found.
+
+--2017-02-06 08:44:17--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/glyphicons-halflings-regular.svg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-06 08:44:18 ERROR 404: Not Found.
+
+--2017-02-06 08:44:18--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/mask.png
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 756 [image/png]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/mask.png’
+
+     0K                                                       100% 48,9M=0s
+
+2017-02-06 08:44:18 (48,9 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/mask.png’ saved [756/756]
+
+--2017-02-06 08:44:18--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.eot?d7yf1v
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 58680 (57K) [application/vnd.ms-fontobject]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.eot?d7yf1v’
+
+     0K .......... .......... .......... .......... .......... 87% 1,04M 0s
+    50K .......                                               100%  916K=0,05s
+
+2017-02-06 08:44:19 (1,02 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.eot?d7yf1v’ saved [58680/58680]
+
+--2017-02-06 08:44:19--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.eot?
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 58680 (57K) [application/vnd.ms-fontobject]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.eot?’
+
+     0K .......... .......... .......... .......... .......... 87% 1,09M 0s
+    50K .......                                               100% 2,23M=0,05s
+
+2017-02-06 08:44:19 (1,17 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.eot?’ saved [58680/58680]
+
+--2017-02-06 08:44:19--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 58556 (57K) [application/font-woff]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v’
+
+     0K .......... .......... .......... .......... .......... 87% 1,22M 0s
+    50K .......                                               100% 13702G=0,04s
+
+2017-02-06 08:44:19 (1,40 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v’ saved [58556/58556]
+
+--2017-02-06 08:44:19--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.ttf?d7yf1v
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 58480 (57K) [application/octet-stream]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.ttf?d7yf1v’
+
+     0K .......... .......... .......... .......... .......... 87% 2,44M 0s
+    50K .......                                               100%  208M=0,02s
+
+2017-02-06 08:44:20 (2,78 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.ttf?d7yf1v’ saved [58480/58480]
+
+--2017-02-06 08:44:20--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.svg?d7yf1v
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 164020 (160K) [image/svg+xml]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.svg?d7yf1v’
+
+     0K .......... .......... .......... .......... .......... 31% 1,20M 0s
+    50K .......... .......... .......... .......... .......... 62% 1,39M 0s
+   100K .......... .......... .......... .......... .......... 93%  175K 0s
+   150K ..........                                            100%  101M=0,4s
+
+2017-02-06 08:44:20 (442 KB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/fonts/Pe-icon-7-stroke.svg?d7yf1v’ saved [164020/164020]
+
+--2017-02-06 08:44:20--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-1.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 69270 (68K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-1.jpg’
+
+     0K .......... .......... .......... .......... .......... 73% 1,49M 0s
+    50K .......... .......                                    100% 5,66M=0,04s
+
+2017-02-06 08:44:21 (1,84 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-1.jpg’ saved [69270/69270]
+
+--2017-02-06 08:44:21--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-2.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 75605 (74K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-2.jpg’
+
+     0K .......... .......... .......... .......... .......... 67% 1,99M 0s
+    50K .......... .......... ...                             100% 30,0M=0,03s
+
+2017-02-06 08:44:21 (2,85 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-2.jpg’ saved [75605/75605]
+
+--2017-02-06 08:44:21--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-3.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 51519 (50K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-3.jpg’
+
+     0K .......... .......... .......... .......... .......... 99% 5,24M 0s
+    50K                                                       100%  594G=0,009s
+
+2017-02-06 08:44:22 (5,28 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-3.jpg’ saved [51519/51519]
+
+--2017-02-06 08:44:22--  http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-4.jpg
+Reusing existing connection to demos.creative-tim.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 56712 (55K) [image/jpeg]
+Saving to: ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-4.jpg’
+
+     0K .......... .......... .......... .......... .......... 90% 4,06M 0s
+    50K .....                                                 100%  118M=0,01s
+
+2017-02-06 08:44:22 (4,48 MB/s) - ‘demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/blog-4.jpg’ saved [56712/56712]
+
+FINISHED --2017-02-06 08:44:22--
+Total wall clock time: 36s
+Downloaded: 71 files, 4,2M in 9,0s (476 KB/s)
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/grid.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/google.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/user.html... 92-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/icons.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/regular.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/bootstrap-table.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/notifications.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/dashboard.html... 95-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/validation.html... 92-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/extended.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/wizard.html... 93-0
+Converting links in demos.creative-tim.com/robots.txt... 0-32
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/forms/regular.html... 90-1
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/charts.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/extended.html... 109-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/login.html... 35-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/vector.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/lock.html... 35-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/pages/register.html... 31-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/maps/fullscreen.html... 85-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/tables/datatables.net.html... 209-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/buttons.html... 103-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/calendar.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/panels.html... 107-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/typography.html... 91-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/components/sweet-alert.html... 89-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/demo.css... nothing to do.
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/bootstrap.min.css... 0-6
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/pe-icon-7-stroke.css... 5-0
+Converting links in demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/light-bootstrap-dashboard.css... 2-0
+Converted links in 30 files in 0,05 seconds.

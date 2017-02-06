@@ -119,7 +119,7 @@
         <a class="category__link link--black" href="/category/laravel-5.4">Подробнее</a>
       </div>
     </div>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=gxul3vwWSuBO-4K1VR4jdJ4MRcuUB5dY&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+    <img src="/pictures/map.png" alt="">
   </div>
 
   <!-- Start of partners block -->
