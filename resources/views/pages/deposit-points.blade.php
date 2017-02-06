@@ -9,21 +9,38 @@
 @endsection
 
 @section('content')
-<div class="container">
-  <h2 class="category__title common-text">Как пополнить транспортную карту?</h2>
-  <div class="row">
-    <div class="col-md-12">
-      <p class="common-text">Для пополнения транспортной карты Вы можете воспользоваться терминалами оплаты ЕТК или терминалом Сбербанка России.</p>
-      <p class="common-text">Найти ближайший для Вас терминал Вы можете на карте снизу.</p>
-    </div>
-  </div>
-</div>
 <div class="container-fluid">
   <div class="col-md-3">
-    <div class="btn-group text-center" role="group" aria-label="Basic example">
+   <!-- <div class="btn-group text-center" role="group" aria-label="Basic example">
       <button type="button" class="btn btn-secondary">Терминал ЕТК</button>
       <button type="button" class="btn btn-secondary">Терминал Сбербанк</button>
       <button type="button" class="btn btn-secondary">Почта</button>
+    </div>
+    <label class="custom-control custom-radio">
+      <input id="radio-refill" name="radio" type="radio" class="custom-control-input">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Я хочу купить карту</span>
+    </label>
+    <label class="custom-control custom-radio">
+      <input id="radio-buy" name="radio" type="radio" class="custom-control-input">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Я хочу пополнить карту</span>
+    </label> -->
+
+    <div class="card" >
+      <div class="card-block">
+        <h4 class="card-title" id="deposit-point-title">Выберите пункт на карте</h4>
+        <p class="card-text"></p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" >Адрес: <strong id="deposit-point-address"></strong></li>
+        <li class="list-group-item">Время работы</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+      <div class="card-block">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
     </div>
   </div>
   <div class="col-md-9">
@@ -33,18 +50,11 @@
     <script>
       function initMap() {
 
-        function toggleBounce() {
-          if (marker.getAnimation() !== null) {
-            marker.setAnimation(null);
-          } else {
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-          }
-        }
-
         var myLatLng = {lat: 56.1364363, lng: 47.2398848};
 
         // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
+        mapBlock = document.getElementById('map');
+        var map = new google.maps.Map(mapBlock, {
           center: myLatLng,
           scrollwheel: false,
           zoom: 13
@@ -104,8 +114,11 @@
             });
               google.maps.event.addListener(marker,'click', (function(marker,contentString,infowindow){ 
                   return function() {
-                      infowindow.setContent(contentString);
-                      infowindow.open(map,marker);
+                    //  infowindow.setContent(contentString);
+                    //  infowindow.open(map,marker);
+                      window.document.getElementById('deposit-point-title').innerHTML = marker.title;
+                      window.document.getElementById('deposit-point-address').innerHTML = marker.address;
+                      map.setCenter(marker.getPosition());
                   };
               })(marker,contentString,infowindow)); 
             /*
@@ -115,14 +128,8 @@
             });*/
           }
         } //End setMarkers
-    /*    var marker = new google.maps.Marker({
-          map: map,
-          position: depositPoint,
-          title: 'Центральная касса',
-          animation: google.maps.Animation.DROP
-        });
-        marker.addListener('click', toggleBounce);
-        marker.setMap(map);*/
+
+       /* marker.setMap(map);*/
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsfO8qFpSStho6O8-HQwpZEkaOv1ynK5A&callback=initMap"
         async defer></script>
