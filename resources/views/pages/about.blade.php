@@ -1,11 +1,11 @@
 @extends('layouts.master')
 
 @section('description')
-О компании "ЕТК" 
+Об обществе с ограниченной ответсвенностью "ЕТК"
 @endsection
 
 @section('title')
-Об обществе с ограниченной ответсвенностью "ЕТК"
+Единая транспортная карта
 @endsection
 
 @section('content')

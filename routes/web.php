@@ -12,10 +12,15 @@
 */
 Route::group(['middleware' => 'web'], function()
 {
-    Route::get('/', function()
-    {
-        return view('index');
-    });
+    Route::get('/', 'SiteController@getMainPage');
+    Route::get('/news', [
+        'uses' => 'SiteController@getNewsPage',
+        'as' => 'news'
+        ]);
+    Route::get('/news/{id}', [
+        'uses' => 'SiteController@getArticle',
+        'as' => 'article'
+        ]);
     Route::get('/about', function()
     {
         return view('pages.about');
@@ -24,6 +29,7 @@ Route::group(['middleware' => 'web'], function()
     {
         return view('pages.deposit-points');
     })->name('deposit-points');
+
 });
 Route::group(['middleware' => 'auth'], function()
 {

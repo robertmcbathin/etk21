@@ -14,8 +14,12 @@
 						<a class="nav-link" href="{{route('deposit-points')}}">Где пополнить карту?</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="{{route('news')}}">Новости</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#">Аккредитованные банки</a>
 					</li>
+
 					<li class="nav-item">
 						<a class="nav-link" href="#">Нормативные акты</a>
 					</li>

@@ -261,9 +261,6 @@
     <a class="nav-link" href="#">Вопросы и ответы</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Нормативные акты</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link" href="#">Контакты</a>
   </li>
 </ul>
