@@ -115,7 +115,6 @@
     <div class="row">
       <div class="category__header">
         <h2 class="category__title">Как нас найти</h2>
-        <a class="category__link link--black" href="/category/laravel-5.4">Подробнее</a>
       </div>
     </div>
   </div>
@@ -160,21 +159,14 @@
         var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+      '<h2 id="firstHeading" class="firstHeading">Московский проспект, д.41/1, помещение 1</h2>'+
+      '<i>Остановка <strong>улица Кривова</strong></i>' +
       '<div id="bodyContent">'+
-      '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-      'sandstone rock formation in the southern part of the '+
-      'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-      'south west of the nearest large town, Alice Springs; 450&#160;km '+
-      '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-      'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-      'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-      'Aboriginal people of the area. It has many springs, waterholes, '+
-      'rock caves and ancient paintings. Uluru is listed as a World '+
-      'Heritage Site.</p>'+
-      '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-      'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-      '(last visited June 22, 2009).</p>'+
+      '<p>Телефоны: <strong>(8352) 36-03-30, 36-33-30</strong></p>'+
+      '<p>Электронная почта: Uluru, <a href="mailto:transkarta@bk.ru">'+
+      'transkarta@bk.ru</a> </p><hr>'+
+      '<p>Режим работы:<strong> с 6 по 19</strong> число каждого месяца:<br> Пн-Пт <strong>c 8:00 до 17:00</strong>, обед с 12 до 13</p>'+
+       '<p><strong> с 20 по 5</strong> число:<br> Пн-Пт <strong>c 8:00 до 17:30</strong>, без обеда. Сб: <strong>с 9:00 до 15:00</strong></p>'+
       '</div>'+
       '</div>';
 
@@ -183,10 +175,10 @@
         content: contentString
       });
       infowindow.open(map,marker);
-      }
-       marker.addListener('click', function() {
+             marker.addListener('click', function() {
     infowindow.open(map, marker);
   }); 
+      }
       
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsfO8qFpSStho6O8-HQwpZEkaOv1ynK5A&callback=initMap"
