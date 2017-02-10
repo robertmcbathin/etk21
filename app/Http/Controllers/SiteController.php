@@ -75,4 +75,8 @@ class SiteController extends Controller
     		'article' => $article
     		]);
     }
+
+    public function getContactsPage(){
+        return view('pages.contacts');
+    }
 }

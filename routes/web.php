@@ -21,6 +21,10 @@ Route::group(['middleware' => 'web'], function()
         'uses' => 'SiteController@getArticle',
         'as' => 'article'
         ]);
+    Route::get('/contacts', [
+        'uses' => 'SiteController@getContactsPage',
+        'as' => 'contacts'
+        ]);
     Route::get('/about', function()
     {
         return view('pages.about');

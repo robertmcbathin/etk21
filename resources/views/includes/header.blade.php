@@ -261,7 +261,7 @@
     <a class="nav-link" href="#">Вопросы и ответы</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Контакты</a>
+    <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
   </li>
 </ul>
 </header>

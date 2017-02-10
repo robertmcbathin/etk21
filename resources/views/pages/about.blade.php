@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('description')
-Об обществе с ограниченной ответсвенностью "ЕТК"
+Об обществе с ограниченной ответственностью "ЕТК"
 @endsection
 
 @section('title')
