@@ -10,6 +10,10 @@ class SiteController extends Controller
 {
     public function getMainPage()
     {
+        /**
+         * DB queries
+         * @var [type]
+         */
     	$main_article = DB::table('articles')
     					->orderBy('created_at', 'desc')
     					->take(1)
@@ -19,6 +23,14 @@ class SiteController extends Controller
     					->skip(1)
     					->take(2)
     					->get();
+        $card_types = DB::table('card_types')
+                        ->orderBy('id')
+                        ->get();
+        $cards = DB::table('cards')
+                    ->get();
+        /**
+         * 
+         */
     	Carbon::setLocale('ru');
     	/**
     	 * Make a human-readable date
@@ -38,7 +50,9 @@ class SiteController extends Controller
     	 */
     	return view('index',[
     		'main_article' => $main_article,
-    		'articles' => $articles
+    		'articles' => $articles,
+            'card_types' => $card_types,
+            'cards' => $cards
     		]);
     }
 

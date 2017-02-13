@@ -283,6 +283,10 @@ footer .logo-title{
 .article{
 	font-family: 'PT Sans',sans-serif;
 }
+.index-card{
+	font-family: 'PT Sans',sans-serif;
+	color: #696767 !important;
+}
 .up-a-little{
 	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }

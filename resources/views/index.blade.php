@@ -55,6 +55,25 @@
     <div class="category__header">
       <h2 class="category__title">Карты</h2>
     </div>
+    @foreach ($card_types as $card_type)
+      <div class="category__header">
+        <h3 class="category__title">{{ $card_type->name }}</h2>
+      </div>
+      @foreach ($cards as $card)
+        @if ($card->type == $card_type->id)
+            <div class="row">
+              <div class="col-md-5">
+                <img src="{{ $card->image }}" alt="{{ $card->name }}" class="rounded mx-auto d-block">
+              </div>
+              <div class="col-md-7 index-card">
+                <h3>{{ $card->name }}</h3>
+                <hr>
+                <blockquote> {{ $card->description }}</blockquote>
+              </div>
+            </div>
+        @endif
+      @endforeach
+    @endforeach
     <div class="card-deck">
       <div class="card e-card">
         <img class="card-img-top" src="http://placehold.it/465x300" alt="Card image cap">
