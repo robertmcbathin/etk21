@@ -287,6 +287,14 @@ footer .logo-title{
 	font-family: 'PT Sans',sans-serif;
 	color: #696767 !important;
 }
+.index-card-image{
+	vertical-align: middle;
+	margin: 0 auto;
+}
+.index-card-column{
+	font-family: 'PT Sans',sans-serif;
+	font-size: 1.8em;
+}
 .up-a-little{
 	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
