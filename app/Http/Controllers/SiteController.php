@@ -93,4 +93,13 @@ class SiteController extends Controller
     public function getContactsPage(){
         return view('pages.contacts');
     }
+
+    public function getFaqPage(){
+        $questions = DB::table('questions')
+                       ->orderBy('updated_at')
+                       ->get();
+        return view('pages.faq',[
+            'questions' => $questions
+            ]);
+    }
 }

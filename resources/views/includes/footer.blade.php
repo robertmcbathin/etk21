@@ -5,7 +5,7 @@
 		<div class="col-md-4 col-md-offset-1"> 
 				<ul class="nav flex-column">
 					<li class="nav-item">
-						<a class="nav-link active" href="#">Электронные карты</a>
+						<a class="nav-link active" href="{{ route('cards') }}">Электронные карты</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Где приобрести карту?</a>

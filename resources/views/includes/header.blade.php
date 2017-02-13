@@ -255,7 +255,7 @@
     <a class="nav-link" href="#">Где купить карту?</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Виды электронных карт</a>
+    <a class="nav-link" href="{{ route('cards') }}">Электронные карты</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Вопросы и ответы</a>

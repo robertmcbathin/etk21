@@ -66,8 +66,8 @@
                 <img src="{{ $card->image }}" alt="{{ $card->name }}" class="rounded mx-auto d-block d-flex align-self-center mr-3">
               </div>
               <div class="col-md-7 index-card">
-                <h3>{{ $card->name }}</h3>
-                <blockquote> {{ $card->description }} <br><a href="#">Подробнее о карте...</a></blockquote>
+                <h3><strong>{{ $card->name }}</strong></h3>
+                <blockquote> {{ $card->description }} <br><a href="{{ route('card', ['id'=>$card->id]) }}">Подробнее о карте...</a></blockquote>
               </div>
             </div>
             <hr>
@@ -95,7 +95,7 @@
               <li class="list-group-item"><strong>Тариф</strong> <span>{{$card->tariff}}</span></li>
             </ul>
             <div class="card-block">
-              <a href="#">Подробнее...</a>
+              <a href="{{ route('card', ['id'=>$card->id]) }}">Подробнее...</a>
             </div>
           </div>
         @endif

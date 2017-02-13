@@ -21,6 +21,18 @@ Route::group(['middleware' => 'web'], function()
         'uses' => 'SiteController@getArticle',
         'as' => 'article'
         ]);
+    Route::get('/cards', [
+        'uses' => 'CardController@getCardsPage',
+        'as' => 'cards'
+        ]);
+    Route::get('/cards/{id}', [
+        'uses' => 'CardController@getCard',
+        'as' => 'card'
+        ]);
+    Route::get('/faq', [
+        'uses' => 'SiteController@getFaqPage',
+        'as' => 'faq'
+        ]);
     Route::get('/contacts', [
         'uses' => 'SiteController@getContactsPage',
         'as' => 'contacts'
