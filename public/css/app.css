@@ -309,6 +309,9 @@ footer .logo-title{
 .purple-button:hover{
 	background-color: #5a42b3;
 }
+.about-page-container{
+	height: 80vh;
+}
 /*
 *Map styles
 */
