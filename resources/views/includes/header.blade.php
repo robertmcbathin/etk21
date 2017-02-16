@@ -258,7 +258,7 @@
     <a class="nav-link" href="{{ route('cards') }}">Электронные карты</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Вопросы и ответы</a>
+    <a class="nav-link" href="{{route('faq')}}">Вопросы и ответы</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>

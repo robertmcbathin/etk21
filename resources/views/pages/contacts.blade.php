@@ -16,12 +16,18 @@
 </div>
   <div class="row">
   <div class="container text-center contacts-block">
-    <span><img src="/pictures/icons/phone-call.svg" alt="" height="32px"> <p>+7 (8352) 36-03-30, 36-33-30</p></span>
-    <span><img src="/pictures/icons/monthly-calendar.svg" alt="" height="32px"> 
+    <div class="col-md-4">
+       <span><img src="/pictures/icons/phone-call.svg" alt="" height="32px"> <p>+7 (8352) 36-03-30, 36-33-30</p></span>
+    </div>
+    <div class="col-md-4">
+          <span><img src="/pictures/icons/monthly-calendar.svg" alt="" height="32px"> 
     <p><strong>с 6 по 19</strong> число каждого месяца: Пн-Пт <strong>c 8:00 до 17:00</strong>, обед с 12 до 13</p>
         <p><strong>с 20 по 5</strong> число: Пн-Пт <strong>c 8:00 до 17:30</strong>, без обеда. Сб: <strong>с 9:00 до 15:00</strong></p>
     </span>
-    <span><img src="/pictures/icons/location-pin.svg" alt="" height="32px"> <p>428000, Россия, Чувашская Республика, г. Чебоксары, Московский проспект, д.41/1 (помещение 1)</p></span>
+    </div>
+    <div class="col-md-4">
+          <span><img src="/pictures/icons/location-pin.svg" alt="" height="32px"> <p>428000, Россия, Чувашская Республика, г. Чебоксары, Московский проспект, д.41/1 (помещение 1)</p></span>
+    </div>
   </div>
   </div>
   <div class="container-fluid up-a-little" id="map">
@@ -69,9 +75,7 @@
       '<div id="bodyContent">'+
       '<p>Телефоны: <strong>(8352) 36-03-30, 36-33-30</strong></p>'+
       '<p>Электронная почта: Uluru, <a href="mailto:transkarta@bk.ru">'+
-      'transkarta@bk.ru</a> </p><hr>'+
-      '<p>Режим работы:<strong> с 6 по 19</strong> число каждого месяца:<br> Пн-Пт <strong>c 8:00 до 17:00</strong>, обед с 12 до 13</p>'+
-       '<p><strong> с 20 по 5</strong> число:<br> Пн-Пт <strong>c 8:00 до 17:30</strong>, без обеда. Сб: <strong>с 9:00 до 15:00</strong></p>'+
+      'transkarta@bk.ru</a> </p>'+
       '</div>'+
       '</div>';
 

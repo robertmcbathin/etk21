@@ -256,6 +256,10 @@ footer .logo-title{
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+.contacts-block p{
+	font-size: 1.5em;
+	font-family: 'PT Sans';
+}
 .common-text{
 	color:#525252;
 }

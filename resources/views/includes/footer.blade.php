@@ -31,7 +31,7 @@
 						<a class="nav-link active" href="#">Задать вопрос</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Вопросы и ответы</a>
+						<a class="nav-link" href="{{route('faq')}}">Вопросы и ответы</a>
 					</li>
 				</ul>
 			</div>

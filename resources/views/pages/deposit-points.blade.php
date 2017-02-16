@@ -11,22 +11,7 @@
 @section('content')
 <div class="container-fluid">
   <div class="col-md-4">
-   <!-- <div class="btn-group text-center" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary">Терминал ЕТК</button>
-      <button type="button" class="btn btn-secondary">Терминал Сбербанк</button>
-      <button type="button" class="btn btn-secondary">Почта</button>
-    </div>
-    <label class="custom-control custom-radio">
-      <input id="radio-refill" name="radio" type="radio" class="custom-control-input">
-      <span class="custom-control-indicator"></span>
-      <span class="custom-control-description">Я хочу купить карту</span>
-    </label>
-    <label class="custom-control custom-radio">
-      <input id="radio-buy" name="radio" type="radio" class="custom-control-input">
-      <span class="custom-control-indicator"></span>
-      <span class="custom-control-description">Я хочу пополнить карту</span>
-    </label> -->
-    <button type="button" class="btn btn-primary btn-lg btn-block purple-button" onclick="initMap(1)"><img src="/pictures/icons/pin-in-the-map.svg" alt="" height="32px"> Найти ближайшие</button>
+  <!-- <button type="button" class="btn btn-primary btn-lg btn-block purple-button" onclick="initMap(1)" disabled=""><img src="/pictures/icons/pin-in-the-map.svg" alt="" height="32px"> Найти ближайшие</button> -->
     <div class="card" >
       <div class="card-block">
         <h4 class="card-title" id="deposit-point-title">Выберите пункт на карте</h4>
