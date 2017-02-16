@@ -298,6 +298,13 @@ footer .logo-title{
 .up-a-little{
 	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+.purple-button{
+	background-color: #4a359a;
+	margin-bottom: 10px;
+}
+.purple-button:hover{
+	background-color: #5a42b3;
+}
 /*
 *Map styles
 */

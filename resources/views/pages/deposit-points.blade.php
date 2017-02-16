@@ -26,7 +26,7 @@
       <span class="custom-control-indicator"></span>
       <span class="custom-control-description">Я хочу пополнить карту</span>
     </label> -->
-
+    <button type="button" class="btn btn-primary btn-lg btn-block purple-button" onclick="initMap(1)"><img src="/pictures/icons/pin-in-the-map.svg" alt="" height="32px"> Найти ближайшие</button>
     <div class="card" >
       <div class="card-block">
         <h4 class="card-title" id="deposit-point-title">Выберите пункт на карте</h4>
@@ -43,9 +43,9 @@
   </div>
 </div>
     <script>
-      function initMap() {
+      function initMap(withLocation) {
 
-        var myLatLng = {lat: 56.1364363, lng: 47.2398848};
+        var myLatLng = {lat: 56.1116019, lng: 47.3448832};
          var styleArray = [
           {
             featureType: 'all',
@@ -74,21 +74,23 @@
           center: myLatLng,
           scrollwheel: true,
           styles: styleArray,
-          zoom: 13
+          zoom: 11
         });
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-      
-            geoinfoWindow.setPosition(pos);
-            geoinfoWindow.setContent('Вы находитесь здесь');
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, geoinfoWindow, map.getCenter());
-          });
+        if (withLocation == 1){
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+              var pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+              };
+        
+              geoinfoWindow.setPosition(pos);
+              geoinfoWindow.setContent('Вы находитесь здесь');
+              map.setCenter(pos);
+            }, function() {
+              handleLocationError(true, geoinfoWindow, map.getCenter());
+            });
+        }
         } else {
           // Browser doesn't support Geolocation
           handleLocationError(false, geoinfoWindow, map.getCenter());
@@ -98,7 +100,7 @@
       }
         // Create a marker and set its position.
         // 
-        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        function handleLocationError(browserHasGeolocation, geoinfoWindow, pos) {
           geoinfoWindow.setPosition(pos);
           geoinfoWindow.setContent(browserHasGeolocation ?
                                 'Произошла ошибка: геолокация недоступна.' :
@@ -180,7 +182,6 @@
           ];
           for (var i = 0; i < depositPoints.length; i++) {
             var depositPoint = depositPoints[i];
-            console.log(depositPoint);
             /*GET the variables */
             pointType = depositPoint[0];
             title = depositPoint[1];
