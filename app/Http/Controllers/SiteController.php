@@ -102,4 +102,7 @@ class SiteController extends Controller
             'questions' => $questions
             ]);
     }
+    public function getAskPage(){
+        return view('pages.ask');
+    }
 }

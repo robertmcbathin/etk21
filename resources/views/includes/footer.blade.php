@@ -8,27 +8,27 @@
 						<a class="nav-link active" href="{{ route('cards') }}">Электронные карты</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Где приобрести карту?</a>
+						<a class="nav-link" href="{{route('sell-points')}}">Где приобрести карту?</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="{{route('deposit-points')}}">Где пополнить карту?</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="{{route('news')}}">Новости</a>
+						<a class="nav-link" href="{{route('how-to-refill')}}">Как пополнить карту?</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Аккредитованные банки</a>
+						<a class="nav-link" href="{{route('news')}}">Новости</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#">Нормативные акты</a>
+						<a class="nav-link" href="{{route('law')}}">Нормативные акты</a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-md-3">
 				<ul class="nav flex-column">
 					<li class="nav-item">
-						<a class="nav-link active" href="#">Задать вопрос</a>
+						<a class="nav-link active" href="{{route('ask')}}">Задать вопрос</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="{{route('faq')}}">Вопросы и ответы</a>

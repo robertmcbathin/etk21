@@ -21,7 +21,7 @@
       <div class="card">
         <div class="card card-inverse">
         <img class="card-img" src="{{$main_article->image}}" alt="{{ $main_article->description }}">
-          <div class="card-img-overlay" style="background-color: rgba(0,0,0,0.75);">
+          <div class="card-img-overlay" style="background-color: rgba(0,0,0,0.75);border-spacing: ">
             <h4 class="card-title">{{ $main_article->title }}</h4>
             <p class="card-text">{{ $main_article->description }}</p>
             <a href="{{route('article',['id' => $main_article->id])}}" class="card-link">Читать далее...</a>
@@ -181,7 +181,6 @@
     <div class="row">
       <div class="category__header">
         <h2 class="category__title">Партнеры</h2>
-        <a class="category__link link--black" href="/category/laravel-5.4"></a>
       </div>
     </div>
     <div class="row partners-block">

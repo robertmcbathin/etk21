@@ -263,6 +263,11 @@ footer .logo-title{
 .common-text{
 	color:#525252;
 }
+.common-link{
+	color: #786588;
+	text-transform: none;
+	font-weight: 700;
+}
 .card-img-overlay{
   bottom: auto;
 }
@@ -305,12 +310,24 @@ footer .logo-title{
 .purple-button{
 	background-color: #4a359a;
 	margin-bottom: 10px;
+	border-color: #4a359a;
 }
 .purple-button:hover{
 	background-color: #5a42b3;
 }
 .about-page-container{
 	height: 80vh;
+}
+.full-height{
+	height: 80vh;
+}
+.navbar-inverse {
+    background-color: #4A359A;
+    border-color: #7d6eb3;
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
 }
 /*
 *Map styles

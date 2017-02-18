@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-<div class="container about-page-container">
+<div class="container full-height">
   <div class="row">
     <div class="col-md-4">
       <img src="/pictures/logo.png" alt="ЕТК" class="rounded mx-auto d-block d-flex align-self-center mr-3">

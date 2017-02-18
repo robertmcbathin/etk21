@@ -37,6 +37,10 @@ Route::group(['middleware' => 'web'], function()
         'uses' => 'SiteController@getContactsPage',
         'as' => 'contacts'
         ]);
+    Route::get('/ask', [
+        'uses' => 'SiteController@getAskPage',
+        'as' => 'ask'
+        ]);
     Route::get('/about', function()
     {
         return view('pages.about');
@@ -45,6 +49,22 @@ Route::group(['middleware' => 'web'], function()
     {
         return view('pages.deposit-points');
     })->name('deposit-points');
+    Route::get('/sell-points', function()
+    {
+        return view('pages.sell-points');
+    })->name('sell-points');
+    Route::get('/how-to-refill', function()
+    {
+        return view('pages.how-to-refill');
+    })->name('how-to-refill');
+    Route::get('/how-to-refill/sberbank', function()
+    {
+        return view('pages.how-to-refill-sberbank');
+    })->name('how-to-refill-sberbank');
+    Route::get('/law', function()
+    {
+        return view('pages.law');
+    })->name('law');
 
 });
 Route::group(['middleware' => 'auth'], function()
