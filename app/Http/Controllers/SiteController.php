@@ -99,6 +99,7 @@ class SiteController extends Controller
 
     public function getFaqPage(){
         $questions = DB::table('questions')
+                       ->where('answer', '!=', '')
                        ->orderBy('updated_at')
                        ->get();
         return view('pages.faq',[
