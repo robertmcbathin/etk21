@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master-no-padding')
 
 @section('description')
 Пункиы пополнения ЕТК. Интерактивная карта 
@@ -9,8 +9,8 @@
 @endsection
 
 @section('content')
-<div class="container-fluid">
-  <div class="col-md-4">
+<div class="container-fluid no-padding">
+  <div class="col-md-4 no-padding">
   <!-- <button type="button" class="btn btn-primary btn-lg btn-block purple-button" onclick="initMap(1)" disabled=""><img src="/pictures/icons/pin-in-the-map.svg" alt="" height="32px"> Найти ближайшие</button> -->
     <div class="card" >
       <div class="card-block">
@@ -23,7 +23,7 @@
       </ul>
     </div>
   </div>
-  <div class="col-md-8">
+  <div class="col-md-8 no-padding">
     <div id="map"></div>
   </div>
 </div>

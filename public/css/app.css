@@ -329,6 +329,10 @@ footer .logo-title{
 .navbar-inverse .navbar-brand {
     color: #fff;
 }
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 /*
 *Map styles
 */
