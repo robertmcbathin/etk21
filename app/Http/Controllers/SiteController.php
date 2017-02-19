@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+use Mail;
+use Session;
+use \App\Question;
 use Carbon\Carbon;
 
 class SiteController extends Controller
@@ -104,5 +107,36 @@ class SiteController extends Controller
     }
     public function getAskPage(){
         return view('pages.ask');
+    }
+    public function postQuestion(Request $request){
+        $this->validate($request,[
+            'name' => 'required|min:1|max:100',
+            'email' => 'required|min:1|max:100',
+            'content' => 'required|min:1'
+            ]);
+        $name = $request['name'];
+        $email = $request['email'];
+        $content = $request['content'];
+        /**
+         * INSERT INTO DB
+         * @var Question
+         */
+        $question = new Question;
+        $question->name = $name;
+        $question->email = $email;
+        $question->content = $content;
+        if ($question->save())
+        {
+            Mail::send('emails.question',
+                      ['name' => $name,
+                       'email' => $email,
+                       'content' => $content],
+                       function ($m){
+                $m->from('activation@etk-club.ru', 'ETK21.RU');
+                $m->to('questions@etk21.ru')->subject('Новый вопрос с сайта');
+                });
+                Session::flash('ok', 'Ваше сообщение отправлено');
+                return redirect()->back();
+        }
     }
 }

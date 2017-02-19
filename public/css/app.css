@@ -341,3 +341,25 @@ footer .logo-title{
 	height: 60vh;
 }
 /**/
+
+
+/**		
+ *
+ *
+ * 
+ */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #fff; 
+}
+.sber-nav>li>a {
+     padding: 0px 0px; 
+}
+.line>li{
+	display: inline-block;
+	text-transform: uppercase;
+}
+a.active{
+	background-color: #4A359A;
+	color: #fff;
+}

@@ -250,22 +250,22 @@
 <div class="container-fluid hidden-xs text-center">
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a class="nav-link active" href="{{ route('about') }}">О компании</a>
+      <a class="nav-link @if (Request::path() == 'about') active @endif" href="{{ route('about') }}">О компании</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ route('cards') }}">Электронные карты</a>
+      <a class="nav-link @if (Request::path() == 'cards') active @endif" href="{{ route('cards') }}">Электронные карты</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{route('sell-points')}}">Где купить карту?</a>
+      <a class="nav-link @if (Request::path() == 'sell-points') active @endif" href="{{route('sell-points')}}">Где купить карту?</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{route('how-to-refill')}}">Как пополнить карту?</a>
+      <a class="nav-link @if (Request::path() == 'how-to-refill') active @endif" href="{{route('how-to-refill')}}">Как пополнить карту?</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{route('faq')}}">Вопросы и ответы</a>
+      <a class="nav-link @if (Request::path() == 'faq') active @endif" href="{{route('faq')}}">Вопросы и ответы</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
+      <a class="nav-link @if (Request::path() == 'contacts') active @endif" href="{{ route('contacts') }}">Контакты</a>
     </li>
   </ul>
 </div>
@@ -278,7 +278,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Единая транспортная карта</a>
+      <a class="navbar-brand" href="#"><img src="/pictures/logo.png" height="20px" alt=""></a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">

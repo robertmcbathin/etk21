@@ -41,6 +41,10 @@ Route::group(['middleware' => 'web'], function()
         'uses' => 'SiteController@getAskPage',
         'as' => 'ask'
         ]);
+    Route::post('/ask', [
+        'uses' => 'SiteController@postQuestion',
+        'as' => 'ask.add.post'
+        ]);
     Route::get('/about', function()
     {
         return view('pages.about');
