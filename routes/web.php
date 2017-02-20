@@ -71,6 +71,13 @@ Route::group(['middleware' => 'web'], function()
     })->name('law');
 
 });
+
+Route::group(['prefix' => 'sudo'], function () {
+    Route::get('login', function ()    {
+        return view('sudo.login');
+    });
+});
+
 Route::group(['middleware' => 'auth'], function()
 {
 
