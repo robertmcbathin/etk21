@@ -75,14 +75,25 @@ Route::group(['middleware' => 'web'], function()
 Route::group(['prefix' => 'sudo'], function () {
     Route::get('login', function ()    {
         return view('sudo.login');
-    });
+    })->name('sudo.login');
+    Route::post('login', [
+        'uses' => 'UserController@postLogin',
+        'as' => 'sudo.login.post' 
+        ]);
+    Route::get('logout', [
+        'uses' => 'UserController@postLogout',
+        'as' => 'sudo.logout.post' 
+        ]);
+    Route::get('dashboard', function ()    {
+        return view('sudo.pages.dashboard');
+    })->name('sudo.pages.dashboard');
 });
 
 Route::group(['middleware' => 'auth'], function()
 {
-
-    Route::get('user/profile', function()
-    {
-        // К этому маршруту также будет привязан фильтр auth.
+Route::group(['prefix' => 'sudo'], function () {
+    Route::get('dashboard', function ()    {
+        return view('sudo.pages.dashboard');
+    })->name('sudo.pages.dashboard');
     });
 });

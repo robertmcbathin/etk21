@@ -18,7 +18,7 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid" id="gradient">
               
 		 <div class="modal fade login" id="loginModal">
 		      <div class="modal-dialog login animated">
@@ -31,25 +31,14 @@
                                 </div>
                                 <div class="error"></div>
                                 <div class="form loginBox">
-                                    <form method="POST" action="#" accept-charset="UTF-8">
-                                    <input id="login" class="form-control" type="text" placeholder="Логин" name="login">
+                                    <form method="POST" action="{{ route('sudo.login.post') }}" accept-charset="UTF-8">
+                                    <input id="username" class="form-control" type="text" placeholder="Логин" name="username">
                                     <input id="password" class="form-control" type="password" placeholder="Пароль" name="password">
                                     <input class="btn btn-default btn-login" type="submit" value="Войти"">
+                                    {{csrf_field()}}
                                     </form>
                                 </div>
                              </div>
-                        </div>
-                        <div class="box">
-                            <div class="content registerBox" style="display:none;">
-                             <div class="form">
-                                <form method="post" html="{:multipart=>true}" data-remote="true" action="/register" accept-charset="UTF-8">
-                                <input id="email" class="form-control" type="text" placeholder="Email" name="email">
-                                <input id="password" class="form-control" type="password" placeholder="Password" name="password">
-                                <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
-                                <input class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
-                                </form>
-                                </div>
-                            </div>
                         </div>
                     </div>      
     		      </div>
