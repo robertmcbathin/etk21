@@ -80,20 +80,22 @@ Route::group(['prefix' => 'sudo'], function () {
         'uses' => 'UserController@postLogin',
         'as' => 'sudo.login.post' 
         ]);
-    Route::get('logout', [
-        'uses' => 'UserController@postLogout',
-        'as' => 'sudo.logout.post' 
-        ]);
-    Route::get('dashboard', function ()    {
-        return view('sudo.pages.dashboard');
-    })->name('sudo.pages.dashboard');
 });
 
 Route::group(['middleware' => 'auth'], function()
 {
 Route::group(['prefix' => 'sudo'], function () {
-    Route::get('dashboard', function ()    {
-        return view('sudo.pages.dashboard');
-    })->name('sudo.pages.dashboard');
-    });
+    Route::get('dashboard', [
+        'uses' => 'SudoController@getDashboard',
+        'as' => 'sudo.pages.dashboard'
+        ]);
+    Route::get('articles', [
+        'uses' => 'SudoController@getArticlesPage',
+        'as' => 'sudo.pages.articles'
+        ]);
+    Route::get('logout', [
+        'uses' => 'UserController@postLogout',
+        'as' => 'sudo.logout.post' 
+        ]);
+});
 });

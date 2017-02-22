@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<style>body{padding-top: 60px;}</style>
         <link href="/admin/css/bootstrap.min.css" rel="stylesheet" />
     <!--  Material Dashboard CSS    -->
@@ -17,7 +17,7 @@
 	
 
 </head>
-<body>
+<body class="login-page">
         <div class="page-header header-filter" id="gradient">
         <div class="container">
             <div class="row">

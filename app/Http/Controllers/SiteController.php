@@ -19,10 +19,12 @@ class SiteController extends Controller
          */
     	$main_article = DB::table('articles')
     					->orderBy('created_at', 'desc')
+                        ->where('published', '1')
     					->take(1)
     					->get();
     	$articles = DB::table('articles')
     					->orderBy('created_at', 'desc')
+                        ->where('published', '1')
     					->skip(1)
     					->take(2)
     					->get();

@@ -56,7 +56,7 @@ $username = Auth::user()->name;
                         <div class="collapse" id="pagesExamples">
                             <ul class="nav">
                                 <li>
-                                    <a href="pages/pricing.html">Новости</a>
+                                    <a href="{{route('sudo.pages.articles')}}">Новости</a>
                                 </li>
                                 <li>
                                     <a href="pages/timeline.html">Вопросы и ответы</a>
