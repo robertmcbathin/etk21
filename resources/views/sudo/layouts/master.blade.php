@@ -80,5 +80,4 @@
         demo.initVectorMap();
     });
 </script>
-
 </html>

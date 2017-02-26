@@ -97,5 +97,33 @@ Route::group(['prefix' => 'sudo'], function () {
         'uses' => 'UserController@postLogout',
         'as' => 'sudo.logout.post' 
         ]);
+    Route::get('/articles/add',[
+        'uses' => 'SudoController@getAddArticle',
+        'as' => 'sudo.articles.add.get'
+        ]);
+    Route::post('/articles/add',[
+        'uses' => 'SudoController@postAddArticle',
+        'as' => 'sudo.articles.add.post'
+        ]);
+
+    Route::get('/articles/edit/{id}',[
+        'uses' => 'SudoController@getEditArticle',
+        'as' => 'sudo.articles.edit.get'
+        ]);
+    Route::post('/articles/edit',[
+        'uses' => 'SudoController@postEditArticle',
+        'as' => 'sudo.articles.edit.post'
+        ]);
+    Route::post('/articles/delete/{id}',[
+        'uses' => 'SudoController@postDeleteArticle',
+        'as' => 'sudo.articles.delete'
+        ]);
 });
 });
+/**
+ * AJAX
+ */
+
+/**
+ * 
+ */

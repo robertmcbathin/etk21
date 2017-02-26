@@ -18,13 +18,13 @@ class SiteController extends Controller
          * @var [type]
          */
     	$main_article = DB::table('articles')
+                        ->where('published', '=', 1)
     					->orderBy('created_at', 'desc')
-                        ->where('published', '1')
     					->take(1)
     					->get();
     	$articles = DB::table('articles')
+                        ->where('published','=', 1)
     					->orderBy('created_at', 'desc')
-                        ->where('published', '1')
     					->skip(1)
     					->take(2)
     					->get();
@@ -63,6 +63,7 @@ class SiteController extends Controller
 
     public function getNewsPage(){
     	$articles = DB::table('articles')
+                        ->where('published', '=', 1)
     					->orderBy('created_at', 'desc')
     					->get();
     	Carbon::setLocale('ru');
@@ -85,6 +86,7 @@ class SiteController extends Controller
     public function getArticle($id){
     	$article = DB::table('articles')
     					->where('id', $id)
+                        ->where('published', '1')
     					->first();
     	Carbon::setLocale('ru');
     	$non_formatted_date = new Carbon($article->created_at);

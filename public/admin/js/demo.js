@@ -820,19 +820,19 @@ demo = {
                 });
     	}else if(type == 'warning-message-and-cancel'){
             swal({
-                    title: 'Are you sure?',
-                    text: 'You will not be able to recover this imaginary file!',
+                    title: 'Вы уверены?',
+                    text: 'Восстановить запись не получится!',
                     type: 'warning',
                     showCancelButton: true,
-                    confirmButtonText: 'Yes, delete it!',
-                    cancelButtonText: 'No, keep it',
+                    confirmButtonText: 'Да, удалить!',
+                    cancelButtonText: 'Нет, не надо',
                     confirmButtonClass: "btn btn-success",
                     cancelButtonClass: "btn btn-danger",
                     buttonsStyling: false
                 }).then(function() {
                   swal({
-                    title: 'Deleted!',
-                    text: 'Your imaginary file has been deleted.',
+                    title: 'Удалено!',
+                    text: 'Запись удалена.',
                     type: 'success',
                     confirmButtonClass: "btn btn-success",
                     buttonsStyling: false
@@ -841,8 +841,8 @@ demo = {
                   // dismiss can be 'overlay', 'cancel', 'close', 'esc', 'timer'
                   if (dismiss === 'cancel') {
                     swal({
-                      title: 'Cancelled',
-                      text: 'Your imaginary file is safe :)',
+                      title: 'Отменено',
+                      text: 'Запись осталась прежней',
                       type: 'error',
                       confirmButtonClass: "btn btn-info",
                       buttonsStyling: false
