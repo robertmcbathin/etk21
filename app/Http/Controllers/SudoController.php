@@ -115,4 +115,16 @@ class SudoController extends Controller
         $article->delete();
         return redirect()->back();
     }
+
+    /**
+     * QUESTIONS
+     */
+    public function getQuestionsPage(){
+        $questions = DB::table('questions')
+                      ->orderBy('created_at','desc')  
+                      ->paginate(10);   
+        return view('sudo.pages.questions',[
+            'questions' => $questions
+            ]);
+    }
 }

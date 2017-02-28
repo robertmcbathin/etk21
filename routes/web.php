@@ -118,6 +118,16 @@ Route::group(['prefix' => 'sudo'], function () {
         'uses' => 'SudoController@postDeleteArticle',
         'as' => 'sudo.articles.delete'
         ]);
+    /**
+     * QUESTIONS    
+     */
+    Route::get('questions', [
+        'uses' => 'SudoController@getQuestionsPage',
+        'as' => 'sudo.pages.questions'
+        ]);
+    /**
+     * 
+     */
 });
 });
 /**

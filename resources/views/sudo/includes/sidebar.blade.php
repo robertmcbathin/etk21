@@ -59,7 +59,7 @@ $username = Auth::user()->name;
                                     <a href="{{route('sudo.pages.articles')}}">Новости</a>
                                 </li>
                                 <li>
-                                    <a href="pages/timeline.html">Вопросы и ответы</a>
+                                    <a href="{{ route('sudo.pages.questions') }}">Вопросы</a>
                                 </li>
                                 <li>
                                     <a href="pages/login.html">Пункты продаж</a>
